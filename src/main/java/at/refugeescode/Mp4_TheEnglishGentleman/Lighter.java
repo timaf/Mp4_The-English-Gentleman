@@ -1,20 +1,12 @@
 package at.refugeescode.Mp4_TheEnglishGentleman;
 
 import at.refugeescode.Mp4_TheEnglishGentleman.model.Cigar;
+import org.springframework.stereotype.Component;
 
-import java.util.EmptyStackException;
-
+@Component
 public class Lighter {
-    private Cigar cigar = new Cigar();
 
-    public boolean lightCigar (){
-        if (cigar.getCigar() == "Marlboro"){
-            return true;
-        }else{
-            throw new EmptyStackException();
-        }
-
+    public void light(Cigar cigar) {
 
     }
-
 }

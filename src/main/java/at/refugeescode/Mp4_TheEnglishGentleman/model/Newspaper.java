@@ -7,7 +7,4 @@ public class Newspaper {
         return name;
     }
 
-    public void setName(String Derspiegl) {
-        this.name = Derspiegl;
-    }
 }
