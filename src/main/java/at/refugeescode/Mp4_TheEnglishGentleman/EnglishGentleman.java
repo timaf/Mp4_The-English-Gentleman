@@ -23,6 +23,7 @@ public class EnglishGentleman {
         read = true;
     }
 
+
     public void smoke(Cigar cigar) {
         lighter.light(cigar);
         cigar.smoke();
